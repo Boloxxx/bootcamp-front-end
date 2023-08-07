@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.encima:hover {
+    color: white;
+    background-color: green;
+}
+
+.encima::before {
+    content: "Pasa por encima";
+    
+}
+
+.encima:hover::before {
+    content: "¡Hecho!";
+}

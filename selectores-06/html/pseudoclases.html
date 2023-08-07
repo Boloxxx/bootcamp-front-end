@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudoclases</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 100px;
+        background-color: bisque;
+      }
+
+      .hover:hover {
+        background-color: burlywood;
+      }
+
+      .listado {
+        padding: 15px;
+        background-color: aquamarine;
+      }
+
+      .listado p:first-child {
+        color: white;
+      }
+
+      a:link {
+        color: deeppink;
+      }
+
+      a:visited {
+        color: crimson;
+      }
+
+      a:hover {
+        color: pink;
+      }
+
+      a:active {
+        color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hover">
+      <p>
+        normal (default): items are packed in their default position as if no
+        value was set. flex-start / start: items packed to the start of the
+        container. The (more supported) flex-start honors the flex-direction
+        while
+      </p>
+    </div>
+    <div class="listado">
+      <p>Parrafo 1</p>
+      <p>Parrafo 2</p>
+      <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+      <a href="http://google.com" target="_blank">Enlace a google</a>
+    </div>
+  </body>
+</html>
